@@ -1,5 +1,5 @@
 //
-//  BusViewController.h
+//  BusSearchViewController.h
 //  SuperBus
 //
 //  Created by Kenchy on 13-7-29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BusViewController : UIViewController
+@interface BusSearchViewController : UIViewController
 
 @end

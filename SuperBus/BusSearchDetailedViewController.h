@@ -12,4 +12,8 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *stationsScrollView;
 @property (strong, nonatomic)  IBOutlet UIView *stationsView;
 @property (strong, nonatomic) NSArray *stationList;
+@property (strong, nonatomic) IBOutlet UINavigationItem *busStationNav;
+@property (strong, nonatomic) IBOutlet UILabel *startStationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *endStationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *stationNameLabel;
 @end

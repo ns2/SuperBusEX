@@ -34,9 +34,9 @@
     CGFloat fontSize,verticalSpaceSize;
     CGFloat backgroundRed,backgroundGreen,backgroundBlue;
     
-    backgroundRed = 231.0f;
-    backgroundGreen = 179.0f;
-    backgroundBlue = 37.0f;
+    backgroundRed = 225.f;//231.0f;
+    backgroundGreen = 225.0f;//179.0f;
+    backgroundBlue = 225.0f;//37.0f;
     
     fontSize = 13.0f;
     verticalSpaceSize = 45.0f;
@@ -97,9 +97,9 @@
         stationNameLabel.backgroundColor = [UIColor clearColor];
         stationNameLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:fontSize];
         stationNameLabel.numberOfLines = 7;
- //       stationNameLabel.shadowColor = [UIColor colorWithWhite:0.1 alpha:0.8];
         [self.stationsView addSubview:stationNameLabel];
         
+        //add icon for each bus station
         UIImage *stationIcon = [UIImage imageNamed:@"bus_icon_clicked.png"];
         UIImageView *stationIconView = [[UIImageView alloc] initWithFrame:CGRectMake(i * verticalSpaceSize + 26.0f,
                                                                                      33.0f,
@@ -116,13 +116,60 @@
         [containerLayer addSublayer:stationIconView.layer];
         [self.stationsScrollView.layer addSublayer:containerLayer];
         
-        
-        
-        
         //icon loading finished, add it to the subview of station view
         [self.stationsScrollView addSubview:stationIconView];
-
     }
+    
+    //load the triangle for bus station and enables the animation
+    UIImage *lengthImage = [UIImage imageNamed:@"gray square.jpg"];
+    UIImageView *lengthImageView = [[UIImageView alloc] initWithFrame:CGRectMake(19.f,
+                                                                                12.5f,
+                                                                                [self.stationList count] * verticalSpaceSize,
+                                                                                3.0f)];
+    lengthImageView.image = lengthImage;
+    [self.stationsScrollView addSubview:lengthImageView];
+    
+    UIImage *trianlgeImage = [UIImage imageNamed:@"triangle4.png"];
+    UIImageView *triangleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(28.5f,
+                                                                                   13.0f,
+                                                                                   fontSize,
+                                                                                   fontSize)];
+    triangleImageView.image = trianlgeImage;
+    [self.stationsScrollView addSubview:triangleImageView];
+    
+    //load the text for bus information
+    self.busStationNav.title = [self getNavText];
+    
+    //load the start name and end name for the bus line
+    self.startStationLabel.text = [self getStartStationName];
+    self.startStationLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:fontSize];
+    self.endStationLabel.text = [self getEndStationName];
+    self.endStationLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:fontSize];
+    
+    //load the line name information
+    self.stationNameLabel.text = [self getStationName];
+    self.stationNameLabel.font = [UIFont fontWithName:@"STHeitiTC-Medium" size:30.0f];
+    self.stationNameLabel.backgroundColor = self.view.backgroundColor;
+    
+}
+
+-(NSString *)getNavText{
+    return @"公交线路信息";
+}
+                                  
+-(NSString *)getStationName{
+    return @"960路";
+}
+
+-(NSString *)getStartStationName{
+    return @"始发站名称";
+}
+
+-(NSString *)getEndStationName{
+    return @"终点站名称";
+}
+
+-(void)onBusStationSelected{
 }
 
 

@@ -17,6 +17,8 @@
 @synthesize stationsView = _stationsView;
 @synthesize stationsScrollView = _stationsScrollView;
 @synthesize stationList = _stationList;
+@synthesize stationName;
+@synthesize lineState;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,19 +65,6 @@
     self.stationsScrollView.backgroundColor = [UIColor colorWithWhite:1.0f alpha:0.3f];
     [self.stationsScrollView addSubview:self.stationsView];
     
-    //fill the station scroll view with the line that sketch the whole scroll view.
-    /*
-    CGMutablePathRef path = CGPathCreateMutable();
-    CGRect rectangle = CGRectMake(10.0f, 10.0f, 200.0f, 300.0f);
-    CGPathAddRect(path, NULL, rectangle);
-    CGContextRef currentContext = UIGraphicsGetCurrentContext();
-    CGContextAddPath(currentContext, path);
-    [[UIColor blueColor] setFill];
-    [[UIColor whiteColor] setStroke];
-    CGContextSetLineWidth(currentContext, 5.0f);
-    CGContextDrawPath(currentContext, kCGPathFillStroke);
-    CGPathRelease(path);
-     */
     
     //fill the station scroll view with the station name
     for (int i = 0;i<self.stationList.count; i++){

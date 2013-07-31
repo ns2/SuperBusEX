@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface BusLineInfoViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *lineNumberText;
+@property (strong, nonatomic) IBOutlet UIButton *searchButton;
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+@property (retain, nonatomic) NSMutableData *webData;
+@property (strong, nonatomic) UIActivityIndicatorView *spinner;
 @end

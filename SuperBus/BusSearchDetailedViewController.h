@@ -16,4 +16,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *startStationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *endStationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *stationNameLabel;
+@property (strong, nonatomic) NSString *stationName;
+@property int lineState; // 0 for up, 1 for down.
 @end

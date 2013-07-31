@@ -41,6 +41,9 @@
 		FFA687FF17A8EF4F001D18F7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA687FE17A8EF4F001D18F7 /* Default@2x.png */; };
 		FFA6880117A8EF59001D18F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA6880017A8EF59001D18F7 /* Default-568h@2x.png */; };
 		FFA6880317A8EF76001D18F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA6880217A8EF76001D18F7 /* Default.png */; };
+		FFA6880617A8F6F2001D18F7 /* BusInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA6880517A8F6F2001D18F7 /* BusInfoService.m */; };
+		FFF2340917A9117100E35575 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF2340817A9117100E35575 /* libxml2.dylib */; };
+		FFF2340C17A9129D00E35575 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF2340B17A9129D00E35575 /* GDataXMLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,11 @@
 		FFA687FE17A8EF4F001D18F7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFA6880017A8EF59001D18F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FFA6880217A8EF76001D18F7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FFA6880417A8F6F2001D18F7 /* BusInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusInfoService.h; sourceTree = "<group>"; };
+		FFA6880517A8F6F2001D18F7 /* BusInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusInfoService.m; sourceTree = "<group>"; };
+		FFF2340817A9117100E35575 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		FFF2340A17A9129D00E35575 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		FFF2340B17A9129D00E35575 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF2340917A9117100E35575 /* libxml2.dylib in Frameworks */,
 				FFA687E917A7FE1D001D18F7 /* QuartzCore.framework in Frameworks */,
 				FFA687AE17A78E10001D18F7 /* UIKit.framework in Frameworks */,
 				FFA687B017A78E10001D18F7 /* Foundation.framework in Frameworks */,
@@ -106,6 +115,10 @@
 		FFA687A117A78E10001D18F7 = {
 			isa = PBXGroup;
 			children = (
+				FFA6880417A8F6F2001D18F7 /* BusInfoService.h */,
+				FFF2340A17A9129D00E35575 /* GDataXMLNode.h */,
+				FFF2340B17A9129D00E35575 /* GDataXMLNode.m */,
+				FFA6880517A8F6F2001D18F7 /* BusInfoService.m */,
 				FFA6880217A8EF76001D18F7 /* Default.png */,
 				FFA6880017A8EF59001D18F7 /* Default-568h@2x.png */,
 				FFA687FE17A8EF4F001D18F7 /* Default@2x.png */,
@@ -127,6 +140,7 @@
 		FFA687AC17A78E10001D18F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFF2340817A9117100E35575 /* libxml2.dylib */,
 				FFA687AD17A78E10001D18F7 /* UIKit.framework */,
 				FFA687AF17A78E10001D18F7 /* Foundation.framework */,
 				FFA687B117A78E10001D18F7 /* CoreGraphics.framework */,
@@ -275,6 +289,8 @@
 				FFA687DD17A794B1001D18F7 /* BusSearchDetailedViewController.m in Sources */,
 				FFA687E017A7958E001D18F7 /* BusLineInfoViewController.m in Sources */,
 				FFA687E717A7DBF4001D18F7 /* BusStationInfo.m in Sources */,
+				FFA6880617A8F6F2001D18F7 /* BusInfoService.m in Sources */,
+				FFF2340C17A9129D00E35575 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +377,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperBus/SuperBus-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SuperBus/SuperBus-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,7 +390,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperBus/SuperBus-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SuperBus/SuperBus-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +417,7 @@
 				FFA687CF17A78E10001D18F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

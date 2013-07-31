@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class BusSearchDetailedViewController;
+
 @interface BusSearchViewController : UIViewController
+
+@property (strong,nonatomic) BusSearchDetailedViewController *detailedViewController;
+@property (strong,nonatomic) UIActivityIndicatorView *spinner;
+@property (retain, nonatomic) NSMutableData *webData;
 
 @end

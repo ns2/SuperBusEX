@@ -11,6 +11,7 @@
 @implementation CollapseClick
 @synthesize CollapseClickDelegate;
 
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

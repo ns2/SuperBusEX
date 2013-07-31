@@ -22,7 +22,6 @@
 		FF607A1817A79302004A4B6E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF607A1717A79302004A4B6E /* OpenGLES.framework */; };
 		FF607A1A17A7930A004A4B6E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF607A1917A7930A004A4B6E /* QuartzCore.framework */; };
 		FF607A1C17A79310004A4B6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF607A1B17A79310004A4B6E /* SystemConfiguration.framework */; };
-		FF607A1F17A7A1D5004A4B6E /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FF607A1E17A7A1D5004A4B6E /* MapPoint.m */; };
 		FF9C80A317A918AF00D430FD /* CollapseClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C809D17A918AF00D430FD /* CollapseClick.m */; };
 		FF9C80A417A918AF00D430FD /* CollapseClickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C809F17A918AF00D430FD /* CollapseClickCell.m */; };
 		FF9C80A517A918AF00D430FD /* CollapseClickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80A017A918AF00D430FD /* CollapseClickCell.xib */; };
@@ -31,6 +30,29 @@
 		FF9C80AB17A918BA00D430FD /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80A917A918BA00D430FD /* TableViewController.xib */; };
 		FF9C80AE17A918C300D430FD /* password-01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80AC17A918C300D430FD /* password-01.png */; };
 		FF9C80AF17A918C300D430FD /* username-01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80AD17A918C300D430FD /* username-01.png */; };
+		FF9C80B317A9493300D430FD /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80B117A9493300D430FD /* GDataXMLNode.m */; };
+		FF9C80B917A9495A00D430FD /* BusLineInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80B617A9495900D430FD /* BusLineInfoViewController.m */; };
+		FF9C80BA17A9495A00D430FD /* BusSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80B817A9495900D430FD /* BusSearchViewController.m */; };
+		FF9C80BD17A9496B00D430FD /* BusSearchDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80BC17A9496A00D430FD /* BusSearchDetailedViewController.m */; };
+		FF9C80CE17A9498E00D430FD /* gb-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80BE17A9498E00D430FD /* gb-2.png */; };
+		FF9C80CF17A9498E00D430FD /* 2531170_131835879000_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80BF17A9498E00D430FD /* 2531170_131835879000_2.jpg */; };
+		FF9C80D017A9498E00D430FD /* bus_icon_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C017A9498E00D430FD /* bus_icon_clicked.png */; };
+		FF9C80D117A9498E00D430FD /* triangle1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C117A9498E00D430FD /* triangle1.png */; };
+		FF9C80D217A9498E00D430FD /* triangle2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C217A9498E00D430FD /* triangle2.png */; };
+		FF9C80D317A9498E00D430FD /* start page.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C317A9498E00D430FD /* start page.png */; };
+		FF9C80D417A9498E00D430FD /* start page2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C417A9498E00D430FD /* start page2.png */; };
+		FF9C80D517A9498E00D430FD /* triangle3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C517A9498E00D430FD /* triangle3.png */; };
+		FF9C80D617A9498E00D430FD /* start page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C617A9498E00D430FD /* start page.jpg */; };
+		FF9C80D717A9498E00D430FD /* gray square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C717A9498E00D430FD /* gray square.jpg */; };
+		FF9C80D817A9498E00D430FD /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C817A9498E00D430FD /* start.png */; };
+		FF9C80D917A9498E00D430FD /* end.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80C917A9498E00D430FD /* end.png */; };
+		FF9C80DA17A9498E00D430FD /* triangle4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80CA17A9498E00D430FD /* triangle4.png */; };
+		FF9C80DB17A9498E00D430FD /* search_button_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80CB17A9498E00D430FD /* search_button_clicked.png */; };
+		FF9C80DC17A9498E00D430FD /* search_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80CC17A9498E00D430FD /* search_button.png */; };
+		FF9C80DD17A9498E00D430FD /* bus_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80CD17A9498E00D430FD /* bus_icon.png */; };
+		FF9C80E117A949C700D430FD /* lgj.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80E017A949C700D430FD /* lgj.storyboard */; };
+		FF9C80E317A94AC900D430FD /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9C80E217A94AC800D430FD /* libxml2.dylib */; };
+		FF9C80EF17A954B900D430FD /* BusLineSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80EE17A954B800D430FD /* BusLineSwitchViewController.m */; };
 		FFA687AE17A78E10001D18F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687AD17A78E10001D18F7 /* UIKit.framework */; };
 		FFA687B017A78E10001D18F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687AF17A78E10001D18F7 /* Foundation.framework */; };
 		FFA687B217A78E10001D18F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687B117A78E10001D18F7 /* CoreGraphics.framework */; };
@@ -61,8 +83,6 @@
 		FF607A1717A79302004A4B6E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		FF607A1917A7930A004A4B6E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF607A1B17A79310004A4B6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		FF607A1D17A7A1D5004A4B6E /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
-		FF607A1E17A7A1D5004A4B6E /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 		FF9C809C17A918AF00D430FD /* CollapseClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClick.h; sourceTree = "<group>"; };
 		FF9C809D17A918AF00D430FD /* CollapseClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClick.m; sourceTree = "<group>"; };
 		FF9C809E17A918AF00D430FD /* CollapseClickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickCell.h; sourceTree = "<group>"; };
@@ -75,6 +95,34 @@
 		FF9C80A917A918BA00D430FD /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		FF9C80AC17A918C300D430FD /* password-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-01.png"; sourceTree = "<group>"; };
 		FF9C80AD17A918C300D430FD /* username-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "username-01.png"; sourceTree = "<group>"; };
+		FF9C80B017A9493200D430FD /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		FF9C80B117A9493300D430FD /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		FF9C80B517A9495900D430FD /* BusLineInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLineInfoViewController.h; sourceTree = "<group>"; };
+		FF9C80B617A9495900D430FD /* BusLineInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLineInfoViewController.m; sourceTree = "<group>"; };
+		FF9C80B717A9495900D430FD /* BusSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusSearchViewController.h; sourceTree = "<group>"; };
+		FF9C80B817A9495900D430FD /* BusSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusSearchViewController.m; sourceTree = "<group>"; };
+		FF9C80BB17A9496A00D430FD /* BusSearchDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusSearchDetailedViewController.h; sourceTree = "<group>"; };
+		FF9C80BC17A9496A00D430FD /* BusSearchDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusSearchDetailedViewController.m; sourceTree = "<group>"; };
+		FF9C80BE17A9498E00D430FD /* gb-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gb-2.png"; sourceTree = "<group>"; };
+		FF9C80BF17A9498E00D430FD /* 2531170_131835879000_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2531170_131835879000_2.jpg; sourceTree = "<group>"; };
+		FF9C80C017A9498E00D430FD /* bus_icon_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus_icon_clicked.png; sourceTree = "<group>"; };
+		FF9C80C117A9498E00D430FD /* triangle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle1.png; sourceTree = "<group>"; };
+		FF9C80C217A9498E00D430FD /* triangle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle2.png; sourceTree = "<group>"; };
+		FF9C80C317A9498E00D430FD /* start page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start page.png"; sourceTree = "<group>"; };
+		FF9C80C417A9498E00D430FD /* start page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start page2.png"; sourceTree = "<group>"; };
+		FF9C80C517A9498E00D430FD /* triangle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle3.png; sourceTree = "<group>"; };
+		FF9C80C617A9498E00D430FD /* start page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start page.jpg"; sourceTree = "<group>"; };
+		FF9C80C717A9498E00D430FD /* gray square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gray square.jpg"; sourceTree = "<group>"; };
+		FF9C80C817A9498E00D430FD /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		FF9C80C917A9498E00D430FD /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end.png; sourceTree = "<group>"; };
+		FF9C80CA17A9498E00D430FD /* triangle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle4.png; sourceTree = "<group>"; };
+		FF9C80CB17A9498E00D430FD /* search_button_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_button_clicked.png; sourceTree = "<group>"; };
+		FF9C80CC17A9498E00D430FD /* search_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_button.png; sourceTree = "<group>"; };
+		FF9C80CD17A9498E00D430FD /* bus_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus_icon.png; sourceTree = "<group>"; };
+		FF9C80E017A949C700D430FD /* lgj.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = lgj.storyboard; sourceTree = "<group>"; };
+		FF9C80E217A94AC800D430FD /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		FF9C80ED17A954B700D430FD /* BusLineSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusLineSwitchViewController.h; path = ../BusLineSwitchViewController.h; sourceTree = "<group>"; };
+		FF9C80EE17A954B800D430FD /* BusLineSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusLineSwitchViewController.m; path = ../BusLineSwitchViewController.m; sourceTree = "<group>"; };
 		FFA687AA17A78E10001D18F7 /* SuperBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA687AD17A78E10001D18F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFA687AF17A78E10001D18F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9C80E317A94AC900D430FD /* libxml2.dylib in Frameworks */,
 				FF607A1C17A79310004A4B6E /* SystemConfiguration.framework in Frameworks */,
 				FF607A1A17A7930A004A4B6E /* QuartzCore.framework in Frameworks */,
 				FF607A1817A79302004A4B6E /* OpenGLES.framework in Frameworks */,
@@ -123,8 +172,8 @@
 		FFA687A117A78E10001D18F7 = {
 			isa = PBXGroup;
 			children = (
-				FF607A1D17A7A1D5004A4B6E /* MapPoint.h */,
-				FF607A1E17A7A1D5004A4B6E /* MapPoint.m */,
+				FF9C80B017A9493200D430FD /* GDataXMLNode.h */,
+				FF9C80B117A9493300D430FD /* GDataXMLNode.m */,
 				FFA687B317A78E10001D18F7 /* SuperBus */,
 				FFA687AC17A78E10001D18F7 /* Frameworks */,
 				FFA687AB17A78E10001D18F7 /* Products */,
@@ -142,6 +191,7 @@
 		FFA687AC17A78E10001D18F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF9C80E217A94AC800D430FD /* libxml2.dylib */,
 				FF607A1B17A79310004A4B6E /* SystemConfiguration.framework */,
 				FF607A1917A7930A004A4B6E /* QuartzCore.framework */,
 				FF607A1717A79302004A4B6E /* OpenGLES.framework */,
@@ -166,6 +216,12 @@
 		FFA687B317A78E10001D18F7 /* SuperBus */ = {
 			isa = PBXGroup;
 			children = (
+				FF9C80ED17A954B700D430FD /* BusLineSwitchViewController.h */,
+				FF9C80EE17A954B800D430FD /* BusLineSwitchViewController.m */,
+				FF9C80B517A9495900D430FD /* BusLineInfoViewController.h */,
+				FF9C80B617A9495900D430FD /* BusLineInfoViewController.m */,
+				FF9C80B717A9495900D430FD /* BusSearchViewController.h */,
+				FF9C80B817A9495900D430FD /* BusSearchViewController.m */,
 				FF9C80A717A918B900D430FD /* TableViewController.h */,
 				FF9C80A817A918BA00D430FD /* TableViewController.m */,
 				FF9C80A917A918BA00D430FD /* TableViewController.xib */,
@@ -178,7 +234,10 @@
 				FF9C80A217A918AF00D430FD /* CollapseClickArrow.m */,
 				FFA687BC17A78E10001D18F7 /* BusAppDelegate.h */,
 				FFA687BD17A78E10001D18F7 /* BusAppDelegate.m */,
+				FF9C80BB17A9496A00D430FD /* BusSearchDetailedViewController.h */,
+				FF9C80BC17A9496A00D430FD /* BusSearchDetailedViewController.m */,
 				FFA687C517A78E10001D18F7 /* MainStoryboard.storyboard */,
+				FF9C80E017A949C700D430FD /* lgj.storyboard */,
 				FFA687C817A78E10001D18F7 /* BusViewController.h */,
 				FFA687C917A78E10001D18F7 /* BusViewController.m */,
 				FFA687B417A78E10001D18F7 /* Supporting Files */,
@@ -192,6 +251,22 @@
 			isa = PBXGroup;
 			children = (
 				FF9C80AC17A918C300D430FD /* password-01.png */,
+				FF9C80BE17A9498E00D430FD /* gb-2.png */,
+				FF9C80BF17A9498E00D430FD /* 2531170_131835879000_2.jpg */,
+				FF9C80C017A9498E00D430FD /* bus_icon_clicked.png */,
+				FF9C80C117A9498E00D430FD /* triangle1.png */,
+				FF9C80C217A9498E00D430FD /* triangle2.png */,
+				FF9C80C317A9498E00D430FD /* start page.png */,
+				FF9C80C417A9498E00D430FD /* start page2.png */,
+				FF9C80C517A9498E00D430FD /* triangle3.png */,
+				FF9C80C617A9498E00D430FD /* start page.jpg */,
+				FF9C80C717A9498E00D430FD /* gray square.jpg */,
+				FF9C80C817A9498E00D430FD /* start.png */,
+				FF9C80C917A9498E00D430FD /* end.png */,
+				FF9C80CA17A9498E00D430FD /* triangle4.png */,
+				FF9C80CB17A9498E00D430FD /* search_button_clicked.png */,
+				FF9C80CC17A9498E00D430FD /* search_button.png */,
+				FF9C80CD17A9498E00D430FD /* bus_icon.png */,
 				FF9C80AD17A918C300D430FD /* username-01.png */,
 				FFA687B517A78E10001D18F7 /* SuperBus-Info.plist */,
 				FFA687B617A78E10001D18F7 /* InfoPlist.strings */,
@@ -266,6 +341,23 @@
 				FF9C80AB17A918BA00D430FD /* TableViewController.xib in Resources */,
 				FF9C80AE17A918C300D430FD /* password-01.png in Resources */,
 				FF9C80AF17A918C300D430FD /* username-01.png in Resources */,
+				FF9C80CE17A9498E00D430FD /* gb-2.png in Resources */,
+				FF9C80CF17A9498E00D430FD /* 2531170_131835879000_2.jpg in Resources */,
+				FF9C80D017A9498E00D430FD /* bus_icon_clicked.png in Resources */,
+				FF9C80D117A9498E00D430FD /* triangle1.png in Resources */,
+				FF9C80D217A9498E00D430FD /* triangle2.png in Resources */,
+				FF9C80D317A9498E00D430FD /* start page.png in Resources */,
+				FF9C80D417A9498E00D430FD /* start page2.png in Resources */,
+				FF9C80D517A9498E00D430FD /* triangle3.png in Resources */,
+				FF9C80D617A9498E00D430FD /* start page.jpg in Resources */,
+				FF9C80D717A9498E00D430FD /* gray square.jpg in Resources */,
+				FF9C80D817A9498E00D430FD /* start.png in Resources */,
+				FF9C80D917A9498E00D430FD /* end.png in Resources */,
+				FF9C80DA17A9498E00D430FD /* triangle4.png in Resources */,
+				FF9C80DB17A9498E00D430FD /* search_button_clicked.png in Resources */,
+				FF9C80DC17A9498E00D430FD /* search_button.png in Resources */,
+				FF9C80DD17A9498E00D430FD /* bus_icon.png in Resources */,
+				FF9C80E117A949C700D430FD /* lgj.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +372,15 @@
 				FFA687BE17A78E10001D18F7 /* BusAppDelegate.m in Sources */,
 				FFA687CA17A78E10001D18F7 /* BusViewController.m in Sources */,
 				FF607A0017A79041004A4B6E /* MapViewController.m in Sources */,
-				FF607A1F17A7A1D5004A4B6E /* MapPoint.m in Sources */,
 				FF9C80A317A918AF00D430FD /* CollapseClick.m in Sources */,
 				FF9C80A417A918AF00D430FD /* CollapseClickCell.m in Sources */,
 				FF9C80A617A918AF00D430FD /* CollapseClickArrow.m in Sources */,
 				FF9C80AA17A918BA00D430FD /* TableViewController.m in Sources */,
+				FF9C80B317A9493300D430FD /* GDataXMLNode.m in Sources */,
+				FF9C80B917A9495A00D430FD /* BusLineInfoViewController.m in Sources */,
+				FF9C80BA17A9495A00D430FD /* BusSearchViewController.m in Sources */,
+				FF9C80BD17A9496B00D430FD /* BusSearchDetailedViewController.m in Sources */,
+				FF9C80EF17A954B900D430FD /* BusLineSwitchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +471,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperBus/SuperBus-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SuperBus/SuperBus-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,8 +491,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperBus/SuperBus-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SuperBus/SuperBus-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

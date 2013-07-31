@@ -14,7 +14,7 @@
     IBOutlet UIView *test2View;
     IBOutlet UIView *test3View;
     
-    __weak IBOutlet CollapseClick *myCollapseClick;
+    __strong IBOutlet CollapseClick *myCollapseClick;
 }
 
 

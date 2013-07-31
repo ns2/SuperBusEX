@@ -17,6 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    myCollapseClick = [[CollapseClick alloc] initWithFrame:CGRectMake(0,
+                                                                     0,
+                                                                     self.view.bounds.size.width,
+                                                                     self.view.bounds.size.height)];
+    [self.view addSubview:myCollapseClick];
     myCollapseClick.CollapseClickDelegate = self;
     [myCollapseClick reloadCollapseClick];
     

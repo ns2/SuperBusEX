@@ -7,6 +7,7 @@
 //
 
 #import "TableViewController.h"
+#import <Foundation/Foundation.h>
 
 @interface TableViewController ()
 
@@ -22,6 +23,13 @@
                                                                      self.view.bounds.size.width,
                                                                      self.view.bounds.size.height)];
     [self.view addSubview:myCollapseClick];
+    test1View = [[UIView alloc] initWithFrame:CGRectMake(0,
+                                                                  0,
+                                                                  20.f,
+                                                                  20.f)];
+    test1View.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.3f];
+//    test1View.text = @"fdfd";
+    [self.view addSubview:test1View];
     myCollapseClick.CollapseClickDelegate = self;
     [myCollapseClick reloadCollapseClick];
     

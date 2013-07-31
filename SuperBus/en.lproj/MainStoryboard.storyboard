@@ -13,8 +13,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBh-nD-U95">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="MnV-cE-Pz6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Show Map">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,11 +28,29 @@
                                     <segue destination="QEH-2c-vrC" kind="push" id="NCp-Ug-ZPy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkZ-HG-VM2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="viK-TN-FDB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show Table">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTablePressed:" destination="2" eventType="touchUpInside" id="w8F-fz-5gz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zBh-nD-U95" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="gbG-Qd-ndw"/>
-                            <constraint firstItem="zBh-nD-U95" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="nXe-cG-P0c"/>
+                            <constraint firstItem="zBh-nD-U95" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1rF-NX-Sto"/>
+                            <constraint firstAttribute="trailing" secondItem="dkZ-HG-VM2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JLb-1p-uef"/>
+                            <constraint firstItem="dkZ-HG-VM2" firstAttribute="baseline" secondItem="zBh-nD-U95" secondAttribute="baseline" type="default" id="OsP-e4-eJp"/>
+                            <constraint firstItem="zBh-nD-U95" firstAttribute="top" secondItem="3" secondAttribute="top" constant="62" id="cw2-LG-Rgk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bmf-gs-6sH"/>
@@ -51,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A0l-Th-IWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1270" y="-101"/>
+            <point key="canvasLocation" x="1278" y="-491"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fZv-gh-Rpy">
@@ -72,6 +93,20 @@
             <point key="canvasLocation" x="249" y="-101"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="BusViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BusViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showTablePressed:" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

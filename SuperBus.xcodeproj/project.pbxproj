@@ -23,6 +23,14 @@
 		FF607A1A17A7930A004A4B6E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF607A1917A7930A004A4B6E /* QuartzCore.framework */; };
 		FF607A1C17A79310004A4B6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF607A1B17A79310004A4B6E /* SystemConfiguration.framework */; };
 		FF607A1F17A7A1D5004A4B6E /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FF607A1E17A7A1D5004A4B6E /* MapPoint.m */; };
+		FF9C80A317A918AF00D430FD /* CollapseClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C809D17A918AF00D430FD /* CollapseClick.m */; };
+		FF9C80A417A918AF00D430FD /* CollapseClickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C809F17A918AF00D430FD /* CollapseClickCell.m */; };
+		FF9C80A517A918AF00D430FD /* CollapseClickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80A017A918AF00D430FD /* CollapseClickCell.xib */; };
+		FF9C80A617A918AF00D430FD /* CollapseClickArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80A217A918AF00D430FD /* CollapseClickArrow.m */; };
+		FF9C80AA17A918BA00D430FD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C80A817A918BA00D430FD /* TableViewController.m */; };
+		FF9C80AB17A918BA00D430FD /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80A917A918BA00D430FD /* TableViewController.xib */; };
+		FF9C80AE17A918C300D430FD /* password-01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80AC17A918C300D430FD /* password-01.png */; };
+		FF9C80AF17A918C300D430FD /* username-01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9C80AD17A918C300D430FD /* username-01.png */; };
 		FFA687AE17A78E10001D18F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687AD17A78E10001D18F7 /* UIKit.framework */; };
 		FFA687B017A78E10001D18F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687AF17A78E10001D18F7 /* Foundation.framework */; };
 		FFA687B217A78E10001D18F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA687B117A78E10001D18F7 /* CoreGraphics.framework */; };
@@ -55,6 +63,18 @@
 		FF607A1B17A79310004A4B6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FF607A1D17A7A1D5004A4B6E /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
 		FF607A1E17A7A1D5004A4B6E /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		FF9C809C17A918AF00D430FD /* CollapseClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClick.h; sourceTree = "<group>"; };
+		FF9C809D17A918AF00D430FD /* CollapseClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClick.m; sourceTree = "<group>"; };
+		FF9C809E17A918AF00D430FD /* CollapseClickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickCell.h; sourceTree = "<group>"; };
+		FF9C809F17A918AF00D430FD /* CollapseClickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickCell.m; sourceTree = "<group>"; };
+		FF9C80A017A918AF00D430FD /* CollapseClickCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollapseClickCell.xib; sourceTree = "<group>"; };
+		FF9C80A117A918AF00D430FD /* CollapseClickArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickArrow.h; sourceTree = "<group>"; };
+		FF9C80A217A918AF00D430FD /* CollapseClickArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickArrow.m; sourceTree = "<group>"; };
+		FF9C80A717A918B900D430FD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FF9C80A817A918BA00D430FD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FF9C80A917A918BA00D430FD /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		FF9C80AC17A918C300D430FD /* password-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-01.png"; sourceTree = "<group>"; };
+		FF9C80AD17A918C300D430FD /* username-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "username-01.png"; sourceTree = "<group>"; };
 		FFA687AA17A78E10001D18F7 /* SuperBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA687AD17A78E10001D18F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFA687AF17A78E10001D18F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,6 +166,16 @@
 		FFA687B317A78E10001D18F7 /* SuperBus */ = {
 			isa = PBXGroup;
 			children = (
+				FF9C80A717A918B900D430FD /* TableViewController.h */,
+				FF9C80A817A918BA00D430FD /* TableViewController.m */,
+				FF9C80A917A918BA00D430FD /* TableViewController.xib */,
+				FF9C809C17A918AF00D430FD /* CollapseClick.h */,
+				FF9C809D17A918AF00D430FD /* CollapseClick.m */,
+				FF9C809E17A918AF00D430FD /* CollapseClickCell.h */,
+				FF9C809F17A918AF00D430FD /* CollapseClickCell.m */,
+				FF9C80A017A918AF00D430FD /* CollapseClickCell.xib */,
+				FF9C80A117A918AF00D430FD /* CollapseClickArrow.h */,
+				FF9C80A217A918AF00D430FD /* CollapseClickArrow.m */,
 				FFA687BC17A78E10001D18F7 /* BusAppDelegate.h */,
 				FFA687BD17A78E10001D18F7 /* BusAppDelegate.m */,
 				FFA687C517A78E10001D18F7 /* MainStoryboard.storyboard */,
@@ -161,6 +191,8 @@
 		FFA687B417A78E10001D18F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF9C80AC17A918C300D430FD /* password-01.png */,
+				FF9C80AD17A918C300D430FD /* username-01.png */,
 				FFA687B517A78E10001D18F7 /* SuperBus-Info.plist */,
 				FFA687B617A78E10001D18F7 /* InfoPlist.strings */,
 				FFA687B917A78E10001D18F7 /* main.m */,
@@ -230,6 +262,10 @@
 				FFA687C417A78E10001D18F7 /* Default-568h@2x.png in Resources */,
 				FFA687C717A78E10001D18F7 /* MainStoryboard.storyboard in Resources */,
 				FF607A0417A79276004A4B6E /* GoogleMaps.bundle in Resources */,
+				FF9C80A517A918AF00D430FD /* CollapseClickCell.xib in Resources */,
+				FF9C80AB17A918BA00D430FD /* TableViewController.xib in Resources */,
+				FF9C80AE17A918C300D430FD /* password-01.png in Resources */,
+				FF9C80AF17A918C300D430FD /* username-01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +281,10 @@
 				FFA687CA17A78E10001D18F7 /* BusViewController.m in Sources */,
 				FF607A0017A79041004A4B6E /* MapViewController.m in Sources */,
 				FF607A1F17A7A1D5004A4B6E /* MapPoint.m in Sources */,
+				FF9C80A317A918AF00D430FD /* CollapseClick.m in Sources */,
+				FF9C80A417A918AF00D430FD /* CollapseClickCell.m in Sources */,
+				FF9C80A617A918AF00D430FD /* CollapseClickArrow.m in Sources */,
+				FF9C80AA17A918BA00D430FD /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

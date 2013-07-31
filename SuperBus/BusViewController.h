@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TableViewController.h"
 @interface BusViewController : UIViewController
 
 @end
